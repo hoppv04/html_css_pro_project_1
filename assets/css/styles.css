@@ -130,3 +130,31 @@ a {
   right: calc((100vw - var(--content-width)) / 2 - 100px);
   bottom: 0;
 }
+
+/* Clients */
+.clients {
+  padding: 122px 0 64px;
+}
+
+.clients .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients .row-desc {
+  margin-top: 23px;
+}
+
+.clients .desc {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  color: #7d8589;
+}
+
+.clients .logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 96px;
+}
