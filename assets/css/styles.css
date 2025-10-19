@@ -167,8 +167,22 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 96px;
+  margin-top: 70px;
 }
+
+.clients .logos a {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 0 42px;
+  border-radius: 12px;
+}
+
+.clients .logos a:hover {
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Guides */
 
 .guides {
   padding: 120px 0;
